@@ -1,0 +1,32 @@
+#include "c:\masm32\include\resource.h"
+
+#define IDM_PLAY 1
+#define IDM_EXIT 2
+#define IDM_ABOUT 3
+#define IDM_CONTROLS 4
+MainMenu MENU
+{
+	POPUP "F&ile", 
+	{
+		MENUITEM "P&lay",IDM_PLAY
+		MENUITEM SEPARATOR
+		MENUITEM "E&xit",IDM_EXIT
+		
+	}
+MENUITEM "&Controls",IDM_CONTROLS
+MENUITEM "&About",IDM_ABOUT
+}
+
+//Main window icon
+#define IDI_I 11
+#define IDI_IS 12
+IDI_I ICON "c:\masm32\bin\KG2.ico"
+IDI_IS ICON "c:\masm32\bin\KGS.ico"
+
+//Main window cursor
+#define IDC_C 21
+IDC_C CURSOR "c:\masm32\bin\silencedpistol.cur"
+
+//Background image
+#define IDB_BACKG 100
+IDB_BACKG BITMAP MOVEABLE PURE LOADONCALL DISCARDABLE "title.bmp"

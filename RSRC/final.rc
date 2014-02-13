@@ -1,0 +1,41 @@
+#include "c:\masm32\include\resource.h"
+
+//Background image
+#define IDB_BACKG 100
+IDB_BACKG BITMAP MOVEABLE PURE LOADONCALL DISCARDABLE "street.bmp"
+
+//Main window icon
+#define IDI_I 11
+#define IDI_IS 12
+IDI_I ICON "KG2.ico"
+IDI_IS ICON "KGS.ico"
+
+//Main window cursor
+#define IDC_C 21
+IDC_C CURSOR "silencedpistol.cur"
+
+//Bitmaps
+#define IDB_RMISSILE 31
+#define IDB_LMISSILE 32
+#define IDB_RED 33
+#define IDB_BLUE 34
+#define IDB_LBOOM 35
+#define IDB_RBOOM 36
+#define IDB_LFIRING 37
+#define IDB_RFIRING 38
+#define IDB_LLIFE 39
+#define IDB_RLIFE 40
+#define IDB_RBAR 41
+#define IDB_LBAR 42
+IDB_RMISSILE BITMAP "rmissile.bmp"
+IDB_LMISSILE BITMAP "lmissile.bmp"
+IDB_RED BITMAP "red.bmp"
+IDB_BLUE BITMAP "blue.bmp"
+IDB_LBOOM BITMAP "LBOOM.bmp"
+IDB_RBOOM BITMAP "RBOOM.bmp"
+IDB_LFIRING BITMAP "lfiring.bmp"
+IDB_RFIRING BITMAP "rfiring.bmp"
+IDB_LLIFE BITMAP "bluelife.bmp"
+IDB_RLIFE BITMAP "redlife.bmp"
+IDB_RBAR BITMAP "rbar.bmp"
+IDB_LBAR BITMAP "lbar.bmp"
